@@ -1,0 +1,89 @@
+body{
+  background-color:rgb(20, 160, 20); 
+}
+
+.section-title {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .project-info h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: rgb(20, 160, 20);
+  }
+  
+  .project-info h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-style: italic;
+  }
+  
+  .project-info p {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: #777;
+  }
+  
+  /* Set the background color and padding for the section */
+  #projects {
+    background-color:rgb(20, 160, 20); 
+    padding: 40px 0;
+  }
+  
+  /* Style the project items */
+  .project-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .project-item .project-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .project-item .project-info h1,
+  .project-item .project-info h2,
+  .project-item .project-info p {
+    margin: 0;
+  }
+  
+  .project-item .project-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Center align the section content */
+  .projects.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ span{
+    color:  rgb(20, 160, 20);
+ } 
+  
+.one{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+  }
+
+ .project-img{
+  float: center;
+  width: 300px;
+  height: 300px; 
+  border: 3px solid rgb(20, 160, 20);
+  padding: 10px;
+
+ } 
+  
+  

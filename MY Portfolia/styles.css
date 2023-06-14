@@ -1,0 +1,148 @@
+/*heading*/
+.header {
+    background-color: #0f0f0f; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px; 
+    font-style: italic;
+    font-size: 30px;
+    color: #ffffff;
+  }
+  
+  .header h1 {
+    margin: 0; 
+  }
+  
+  .header h1 span {
+    display: block; 
+  }
+  
+  .header h1 span:first-child {
+    font-weight: bold; 
+    
+  }
+  /*span*/
+  span{
+    color: rgb(20, 160, 20);
+  }
+
+  /*link*/
+
+  nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: 300;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  a:hover {
+    background-color: rgb(20, 160, 20);
+    color: #fff;
+  }
+
+  .mypic {
+    float: left;
+    width: 300px;
+    height: 300px; 
+    border: 3px solid rgb(20, 160, 20);
+    padding: 10px;
+  }
+  
+  .mypic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /*link pages*/
+
+  .social-icon {
+    display: flex;
+    flex-direction:vertical;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .social-item {
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    width: 25px; 
+    height: 25px;
+  }
+
+  .linkname h1 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+  
+ .linka {
+    text-decoration: none;
+    color: #000;
+  }
+
+
+  /*contact info*/
+  .contact-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction:vertical;
+    align-items: center;
+    text-align: center;
+}
+
+.icon img {
+    width: 25px; 
+    height: 25px;
+}
+
+.contact-info h1 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.contact-info h2 {
+    font-size: 14px;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+p{
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+ font-size:medium;
+ font-style: italic;
+}
+  
+.hero{
+  background-color: #f1f1f1;
+}
